@@ -1,11 +1,11 @@
 Algoritmo sin_titulo
 	//Hallar la matriz identidad de matrices cuadradas. La diagonal mayor estará llena de 1 y el resto de la matriz se rellenará de 0. 
-	Dimension matriz[20,20]
-		Escribir "Diga la cantidad de filas y columnas de la matriz";
+			Escribir "Diga la cantidad de filas y columnas de la matriz";
 		Escribir "Numero de filas"
 		Leer numf
 		Escribir "Numero de columnas"
 		Leer numc
+		Dimension matriz[numf,numc]
 		Si numf=numc Entonces
 						
 			Escribir ""
